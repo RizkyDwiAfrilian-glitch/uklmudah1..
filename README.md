@@ -1,1 +1,22 @@
-# uklmudah1..
+Latihan UKL MUDAH 1
+Program ini berfungsi sebagai kalkulator biaya ekspedisi untuk menghitung total biaya pengiriman paket. Cara kerjanya adalah dengan meminta lima input dari pengguna: berat (kg), jarak (km), serta dimensi paket (panjang, lebar, dan tinggi). Logika program kemudian menentukan biaya jarak menggunakan if-else, di mana jarak 10 km ke bawah menggunakan tarif Rp 4.250/kg, sementara jarak di atas itu menggunakan tarif Rp 6.000/kg. Selain itu, program juga menghitung volume paket; jika volume melebihi 100 cm³, biaya tambahan tetap sebesar Rp 50.000 akan dikenakan. Total biaya akhir adalah hasil penjumlahan dari biaya jarak dan biaya volume tersebut.<img width="540" height="297" alt="Screenshot 2025-11-05 080208" src="https://github.com/user-attachments/assets/d0536087-19cd-400a-9b16-cabd68b577e2" />
+
+
+UKL MUDAH 2
+Program ini memiliki fungsi sederhana untuk menentukan apakah sebuah bilangan bulat yang dimasukkan pengguna termasuk ganjil atau genap. Cara kerjanya adalah dengan mengambil satu input bilangan, lalu menggunakan operator modulus (% 2) untuk mengecek sisa hasil baginya. Jika sisa hasil bagi adalah 0, program akan mencetak "GENAP", namun jika sisa hasil baginya bukan 0 (melainkan 1), program akan mencetak "GANJIL".
+<img width="551" height="275" alt="Screenshot 2025-11-05 080239" src="https://github.com/user-attachments/assets/f84c5c7a-188c-499d-b457-86858536dbdd" />
+
+UKL SEDANG 1
+Program ini berfungsi untuk menghitung nilai faktorial ($n!$) dari sebuah bilangan bulat positif yang dimasukkan oleh pengguna. Alur kerjanya adalah dengan meminta satu input bilangan (n) dan menginisialisasi variabel hasilFaktorial (bertipe long untuk menampung angka besar) dengan nilai 1. Program kemudian mengeksekusi perulangan for yang berjalan dari 1 hingga n. Di setiap iterasi, hasilFaktorial akan dikalikan dengan angka iterasi saat itu, sehingga mengakumulasi nilai faktorial. Setelah perulangan selesai, nilai faktorial akhir akan ditampilkan.
+<img width="617" height="268" alt="Screenshot 2025-11-05 080305" src="https://github.com/user-attachments/assets/53d18314-ed79-4f63-bc80-e98d7b646dd8" />
+
+UKL SEDANG 2
+Program ini berfungsi untuk menghitung volume sebuah tabung, dengan penekanan utama pada implementasi konsep fungsi (method). Cara kerjanya adalah dengan memisahkan logika. Fungsi main hanya bertugas untuk berinteraksi dengan pengguna, yaitu meminta input jari-jari dan tinggi tabung. Setelah input didapat, fungsi main akan memanggil fungsi terpisah bernama hitungVolumeTabung sambil mengirimkan kedua nilai input tersebut sebagai parameter. Fungsi hitungVolumeTabung inilah yang melakukan perhitungan rumus $\pi r^2 h$ (menggunakan Math.PI dan Math.pow) dan mengembalikan hasil akhirnya (return value) ke fungsi main untuk ditampilkan.<img width="545" height="264" alt="Screenshot 2025-11-05 080332" src="https://github.com/user-attachments/assets/6788a105-aa7e-4ec0-aa62-055988023824" />
+
+UKL SULIT 1
+Program ini berfungsi sebagai alat rekapitulasi nilai untuk menghitung total dan nilai rata-rata dari sekelompok siswa. Cara kerjanya dimulai dengan meminta input jumlah siswa yang akan didata. Berdasarkan jumlah tersebut, program akan melakukan perulangan for untuk meminta nilai dari setiap siswa, satu per satu. Setiap nilai yang dimasukkan akan dijumlahkan dan diakumulasikan ke dalam variabel totalNilai. Setelah semua nilai siswa terkumpul dan perulangan selesai, program akan menghitung rata-rata dengan membagi totalNilai dengan jumlahSiswa, lalu menampilkan kedua hasil rekapitulasi tersebut
+<img width="661" height="272" alt="Screenshot 2025-11-05 084138" src="https://github.com/user-attachments/assets/a1a168d0-0e5b-483a-bb3d-1e6138bf310b" />
+
+UKL SULIT 2
+Program ini berfungsi untuk melakukan operasi penjumlahan matematis antara dua buah matriks (Matriks A + Matriks B) yang memiliki ordo (baris dan kolom) identik. Program ini bekerja dengan terlebih dahulu meminta pengguna menentukan ordo. Kemudian, program menggunakan perulangan bersarang (nested loop) untuk meminta pengguna mengisi setiap elemen pada indeks [i][j] dari Matriks A, dan mengulangi proses yang sama untuk Matriks B. Setelah kedua matriks terisi, program kembali menggunakan nested loop untuk melakukan penjumlahan, di mana setiap elemen dijumlahkan dengan elemen di posisi yang sama (matriksHasil[i][j] = matriksA[i][j] + matriksB[i][j]). Terakhir, matriks hasil penjumlahan tersebut akan ditampilkan ke layar.
+
